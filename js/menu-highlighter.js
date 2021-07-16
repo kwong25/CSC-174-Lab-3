@@ -50,6 +50,7 @@ $("nav a").each( function() {
 	if (this.href.indexOf(thisFile) > 0) {
 		// Step 5a-a: then add the "is-current" class to the anchor
 		$(this).addClass("is-current");
+		$(this).closest(".subnav-title").addClass("is-current");
 	}
 });
 

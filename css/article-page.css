@@ -44,6 +44,6 @@ figure {
     max-width: 850px;
     width: 90%;
     padding: 10px 30px;
-    margin: 20px auto;
+    margin: 20px auto 50px auto;
     background-color: rgba(255, 255, 255, 0.829);
 }

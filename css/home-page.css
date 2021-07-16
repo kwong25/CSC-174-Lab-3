@@ -20,11 +20,11 @@ body {
 }
 
 header {
-    margin: 4% 5%;
+    margin: 2% 4%;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     min-height: fit-content;
-    max-height: 90%;
+    max-height: 80%;
 }
 
 h1 {
@@ -172,3 +172,4 @@ h3 {
     font-size: 16pt;
     color: rgb(180, 119, 116);
 }
+

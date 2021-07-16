@@ -18,12 +18,13 @@ $result = mysqli_query($connection, $query);
 ?>
         
         </div>
+        <h2 class="form-header">Join the Movement!</h2>
         <div class="container">
-            <h2>Join the Movement!</h2>
-            <h3>See who's already made the pledge to never visit Phoenix:</h3>
+
+            <p class="form-tag">See who's already made the pledge to never visit Phoenix:</p>
             <table>
                 <tr>
-                    <th>Counter</th>
+                    <th>Pledger #</th>
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>

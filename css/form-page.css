@@ -8,6 +8,8 @@ fieldset {
 form {
 
     text-align: center;
+    padding-bottom: 20px;
+
 }
 
 label, input {
@@ -63,5 +65,49 @@ input:not(.button) {
 
     margin: 10px auto 0 auto;
     text-shadow: 2px 2px rgba(255, 255, 255, 0.473);
+}
+
+table {
+
+    width: 90%;
+    margin: 0 auto;
+    border-spacing: 0;
+    padding-bottom: 20px;
+
+}
+
+td {
+
+    padding-bottom: 10px;
+}
+
+td:not(:first-child) {
+
+    padding-left: 15px;
+}
+
+td:not(:last-child) {
+
+    border-right: 1px solid rgb(168, 149, 149);
+
+
+}
+
+td:first-child {
+
+    text-align: center;
+}
+
+td {
+
+    font-size: 14pt;
+}
+
+th {
+
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 14pt;
 }
 
