@@ -1,0 +1,174 @@
+/*HEADER*/
+body {
+    background-image: url(../images/phoenix.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.banner {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    grid-template-rows: 1fr 10fr;
+    min-height: fit-content;
+
+}
+
+header {
+    margin: 4% 5%;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    min-height: fit-content;
+    max-height: 90%;
+}
+
+h1 {
+    font-size: 7.5vmax;
+}
+
+nav {
+    z-index: +2;
+    grid-row: 1 / 2;
+}
+#items {
+        
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    position: absolute;
+    align-content: space-around;
+    top: 0px;
+}
+
+.lead {
+    z-index: +1;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin: 4% 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7vmax;
+    min-height: fit-content;
+}
+
+.lead h2 {
+
+    margin: 0;
+    font-size: 4vmax;
+}
+
+/* HOME PAGE */
+main {
+    padding: 0;
+    background-color:rgba(0, 0, 0, 0.753);
+
+}
+
+h2 {
+
+    Padding: 0;
+    margin: 0;
+
+}
+
+main h2 {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 20px 0 0 0;
+    display: inline-block;
+    width: 50%;
+    text-shadow: 1px 1px white;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 0 2% 3vh 2%;
+    margin: 0;
+}
+
+.flex-box section {
+
+    margin: 2% 1%;
+}
+
+.first-blurb  {
+    background-image: url(../images/oven.jpeg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / 2;
+}
+
+.second-blurb  {
+    background-image: url(../images/drought.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    grid-column: 2 / 3;
+}
+
+.third-blurb  {
+    background-image: url(../images/cholla.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    grid-column: 3 / 4;
+}
+
+.card {
+    color: white;
+    text-align: center;
+    height: 100%;
+    transition: 1.5s;
+    padding-top: 20%;
+}
+
+h3 {
+    font-size: 34pt;
+    margin:0;
+    padding-bottom: 0;
+    background-color: rgba(36, 30, 30, 0.781);
+
+}
+
+.card:hover {
+
+    background-color:rgba(36, 30, 30, 0.856);
+    padding-top: 0;
+}
+
+.text {
+    color: rgb(0, 0, 0, 0);
+}
+
+.text:hover {
+    color: white;
+    margin: 0;
+    padding: 1% 5% 5% 5%;
+}
+
+.text a {
+    color: inherit;
+    font-size: 14pt;
+    text-decoration: none;
+    font-style:italic;
+
+}
+
+.text a:hover {
+
+    font-size: 16pt;
+    color: rgb(180, 119, 116);
+}
