@@ -21,7 +21,7 @@
                     <li><a href="cactus.php">Cactus</a></li>
                     <li class="subnav-title">The Never-Visit Movement
                         <ul class="subnav-list">
-                            <li class="subnav-item"><a href="contact.php">Make the Pledge</a></li>
+                            <li class="subnav-item"><a href="signature.php">Make the Pledge</a></li>
                             <li class="subnav-item"><a href="pledges.php">Join the Movement</a></li>
                         </ul>  
                     </li>  
